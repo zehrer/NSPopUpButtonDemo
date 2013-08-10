@@ -102,9 +102,9 @@
                                                                 <menu key="menu" title="OtherViews" autoenablesItems="NO" id="TKn-Yq-ivg"/>
                                                             </popUpButtonCell>
                                                             <connections>
-                                                                <binding destination="VQH-OP-9YV" name="content" keyPath="arrangedObjects" id="84n-Ce-PaR"/>
-                                                                <binding destination="VQH-OP-9YV" name="contentValues" keyPath="arrangedObjects.lastName" previousBinding="84n-Ce-PaR" id="Mve-rn-QPy"/>
-                                                                <binding destination="PwR-PD-DU1" name="selectedObject" keyPath="objectValue.author" previousBinding="Mve-rn-QPy" id="n28-7Y-o6j"/>
+                                                                <binding destination="-2" name="content" keyPath="personController.arrangedObjects" id="Dhp-Hc-n5M"/>
+                                                                <binding destination="-2" name="contentValues" keyPath="personController.arrangedObjects.lastName" previousBinding="Dhp-Hc-n5M" id="ZzQ-GO-aKy"/>
+                                                                <binding destination="PwR-PD-DU1" name="selectedObject" keyPath="objectValue.author" previousBinding="ZzQ-GO-aKy" id="RMA-gS-jgt"/>
                                                             </connections>
                                                         </popUpButton>
                                                     </subviews>
