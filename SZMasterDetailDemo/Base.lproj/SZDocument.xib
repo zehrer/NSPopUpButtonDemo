@@ -36,7 +36,7 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                     <tableColumns>
-                                        <tableColumn width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="gdY-zv-z39">
+                                        <tableColumn width="145.7890625" minWidth="10" maxWidth="3.4028234663852886e+38" id="gdY-zv-z39">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Title">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -50,11 +50,11 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView id="Hgv-pC-v5p">
-                                                    <rect key="frame" x="1" y="1" width="64" height="22"/>
+                                                    <rect key="frame" x="1" y="1" width="146" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vsf-ms-4z6">
-                                                            <rect key="frame" x="0.0" y="5" width="64" height="17"/>
+                                                            <rect key="frame" x="0.0" y="5" width="146" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" title="Table View Cell" id="eeJ-Up-E4W">
                                                                 <font key="font" metaFont="system"/>
@@ -75,7 +75,7 @@
                                                 <binding destination="KCJ-Es-TpE" name="value" keyPath="arrangedObjects" id="Gg5-Va-AzD"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="64" minWidth="10" maxWidth="3.4028234663852886e+38" id="LoH-ZN-1WT">
+                                        <tableColumn width="177.765625" minWidth="10" maxWidth="3.4028234663852886e+38" id="LoH-ZN-1WT">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Author">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -89,17 +89,22 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView id="PwR-PD-DU1">
-                                                    <rect key="frame" x="68" y="1" width="64" height="22"/>
+                                                    <rect key="frame" x="150" y="1" width="178" height="22"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <popUpButton verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p6y-hA-BsW">
-                                                            <rect key="frame" x="0.0" y="0.0" width="64" height="26"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="174" height="26"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                                            <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="wrn-Vt-RFT">
+                                                            <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" autoenablesItems="NO" id="wrn-Vt-RFT">
                                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                                <font key="font" metaFont="system"/>
-                                                                <menu key="menu" title="OtherViews" id="TKn-Yq-ivg"/>
+                                                                <font key="font" metaFont="menu"/>
+                                                                <menu key="menu" title="OtherViews" autoenablesItems="NO" id="TKn-Yq-ivg"/>
                                                             </popUpButtonCell>
+                                                            <connections>
+                                                                <binding destination="VQH-OP-9YV" name="content" keyPath="arrangedObjects" id="Ida-zi-M15"/>
+                                                                <binding destination="VQH-OP-9YV" name="contentObjects" keyPath="selection.lastName" previousBinding="Ida-zi-M15" id="HBX-pN-PPX"/>
+                                                                <binding destination="PwR-PD-DU1" name="selectedObject" keyPath="objectValue.author" previousBinding="HBX-pN-PPX" id="tup-04-d6w"/>
+                                                            </connections>
                                                         </popUpButton>
                                                     </subviews>
                                                     <constraints>
