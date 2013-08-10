@@ -140,7 +140,7 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
-                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Media Object" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="qOF-cW-ZjZ">
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Details" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="qOF-cW-ZjZ">
                         <rect key="frame" x="17" y="41" width="473" height="94"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <view key="contentView">
