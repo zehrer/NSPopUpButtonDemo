@@ -16,31 +16,19 @@
 		AAA4FA3217B551FC000085B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAA4FA3017B551FC000085B2 /* MainMenu.xib */; };
 		AAA4FA3517B551FC000085B2 /* SZDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA4FA3317B551FC000085B2 /* SZDocument.xcdatamodeld */; };
 		AAA4FA3717B551FC000085B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA4FA3617B551FC000085B2 /* Images.xcassets */; };
-		AAA4FA3E17B551FC000085B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4FA3D17B551FC000085B2 /* XCTest.framework */; };
-		AAA4FA3F17B551FC000085B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4FA1817B551FC000085B2 /* Cocoa.framework */; };
 		AAA4FA5417B62C2C000085B2 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA4FA5317B62C2C000085B2 /* Media.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AAA4FA4017B551FC000085B2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAA4FA0D17B551FC000085B2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AAA4FA1417B551FC000085B2;
-			remoteInfo = SZMasterDetailDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		AAA4FA1517B551FC000085B2 /* SZMasterDetailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZMasterDetailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA4FA1517B551FC000085B2 /* NSPopUpButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSPopUpButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA4FA1817B551FC000085B2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AAA4FA1B17B551FC000085B2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AAA4FA1C17B551FC000085B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AAA4FA1D17B551FC000085B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AAA4FA2017B551FC000085B2 /* SZMasterDetailDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SZMasterDetailDemo-Info.plist"; sourceTree = "<group>"; };
+		AAA4FA2017B551FC000085B2 /* NSPopUpButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSPopUpButtonDemo-Info.plist"; sourceTree = "<group>"; };
 		AAA4FA2217B551FC000085B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAA4FA2417B551FC000085B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAA4FA2617B551FC000085B2 /* SZMasterDetailDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZMasterDetailDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AAA4FA2617B551FC000085B2 /* NSPopUpButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSPopUpButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
 		AAA4FA2817B551FC000085B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		AAA4FA2A17B551FC000085B2 /* SZDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZDocument.h; sourceTree = "<group>"; };
 		AAA4FA2B17B551FC000085B2 /* SZDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZDocument.m; sourceTree = "<group>"; };
@@ -48,7 +36,6 @@
 		AAA4FA3117B551FC000085B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		AAA4FA3417B551FC000085B2 /* SZDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SZDocument.xcdatamodel; sourceTree = "<group>"; };
 		AAA4FA3617B551FC000085B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AAA4FA3C17B551FC000085B2 /* SZMasterDetailDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZMasterDetailDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA4FA3D17B551FC000085B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AAA4FA5217B62C2C000085B2 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
 		AAA4FA5317B62C2C000085B2 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
@@ -63,22 +50,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAA4FA3917B551FC000085B2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAA4FA3F17B551FC000085B2 /* Cocoa.framework in Frameworks */,
-				AAA4FA3E17B551FC000085B2 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		AAA4FA0C17B551FC000085B2 = {
 			isa = PBXGroup;
 			children = (
-				AAA4FA1E17B551FC000085B2 /* SZMasterDetailDemo */,
+				AAA4FA1E17B551FC000085B2 /* NSPopUpButtonDemo */,
 				AAA4FA1717B551FC000085B2 /* Frameworks */,
 				AAA4FA1617B551FC000085B2 /* Products */,
 			);
@@ -87,8 +65,7 @@
 		AAA4FA1617B551FC000085B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAA4FA1517B551FC000085B2 /* SZMasterDetailDemo.app */,
-				AAA4FA3C17B551FC000085B2 /* SZMasterDetailDemoTests.xctest */,
+				AAA4FA1517B551FC000085B2 /* NSPopUpButtonDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +90,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		AAA4FA1E17B551FC000085B2 /* SZMasterDetailDemo */ = {
+		AAA4FA1E17B551FC000085B2 /* NSPopUpButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
 				AAA4FA2A17B551FC000085B2 /* SZDocument.h */,
@@ -126,16 +103,17 @@
 				AAA4FA3617B551FC000085B2 /* Images.xcassets */,
 				AAA4FA1F17B551FC000085B2 /* Supporting Files */,
 			);
+			name = NSPopUpButtonDemo;
 			path = SZMasterDetailDemo;
 			sourceTree = "<group>";
 		};
 		AAA4FA1F17B551FC000085B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AAA4FA2017B551FC000085B2 /* SZMasterDetailDemo-Info.plist */,
+				AAA4FA2017B551FC000085B2 /* NSPopUpButtonDemo-Info.plist */,
 				AAA4FA2117B551FC000085B2 /* InfoPlist.strings */,
 				AAA4FA2417B551FC000085B2 /* main.m */,
-				AAA4FA2617B551FC000085B2 /* SZMasterDetailDemo-Prefix.pch */,
+				AAA4FA2617B551FC000085B2 /* NSPopUpButtonDemo-Prefix.pch */,
 				AAA4FA2717B551FC000085B2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -144,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAA4FA1417B551FC000085B2 /* SZMasterDetailDemo */ = {
+		AAA4FA1417B551FC000085B2 /* NSPopUpButtonDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAA4FA4C17B551FC000085B2 /* Build configuration list for PBXNativeTarget "SZMasterDetailDemo" */;
+			buildConfigurationList = AAA4FA4C17B551FC000085B2 /* Build configuration list for PBXNativeTarget "NSPopUpButtonDemo" */;
 			buildPhases = (
 				AAA4FA1117B551FC000085B2 /* Sources */,
 				AAA4FA1217B551FC000085B2 /* Frameworks */,
@@ -156,28 +134,10 @@
 			);
 			dependencies = (
 			);
-			name = SZMasterDetailDemo;
+			name = NSPopUpButtonDemo;
 			productName = SZMasterDetailDemo;
-			productReference = AAA4FA1517B551FC000085B2 /* SZMasterDetailDemo.app */;
+			productReference = AAA4FA1517B551FC000085B2 /* NSPopUpButtonDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AAA4FA3B17B551FC000085B2 /* SZMasterDetailDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAA4FA4F17B551FC000085B2 /* Build configuration list for PBXNativeTarget "SZMasterDetailDemoTests" */;
-			buildPhases = (
-				AAA4FA3817B551FC000085B2 /* Sources */,
-				AAA4FA3917B551FC000085B2 /* Frameworks */,
-				AAA4FA3A17B551FC000085B2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AAA4FA4117B551FC000085B2 /* PBXTargetDependency */,
-			);
-			name = SZMasterDetailDemoTests;
-			productName = SZMasterDetailDemoTests;
-			productReference = AAA4FA3C17B551FC000085B2 /* SZMasterDetailDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,13 +148,8 @@
 				CLASSPREFIX = SZ;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Stephan Zehrer";
-				TargetAttributes = {
-					AAA4FA3B17B551FC000085B2 = {
-						TestTargetID = AAA4FA1417B551FC000085B2;
-					};
-				};
 			};
-			buildConfigurationList = AAA4FA1017B551FC000085B2 /* Build configuration list for PBXProject "SZMasterDetailDemo" */;
+			buildConfigurationList = AAA4FA1017B551FC000085B2 /* Build configuration list for PBXProject "NSPopUpButtonDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -207,8 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAA4FA1417B551FC000085B2 /* SZMasterDetailDemo */,
-				AAA4FA3B17B551FC000085B2 /* SZMasterDetailDemoTests */,
+				AAA4FA1417B551FC000085B2 /* NSPopUpButtonDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -226,13 +180,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAA4FA3A17B551FC000085B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -247,22 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAA4FA3817B551FC000085B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AAA4FA4117B551FC000085B2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AAA4FA1417B551FC000085B2 /* SZMasterDetailDemo */;
-			targetProxy = AAA4FA4017B551FC000085B2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AAA4FA2117B551FC000085B2 /* InfoPlist.strings */ = {
@@ -376,9 +308,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SZMasterDetailDemo/SZMasterDetailDemo-Prefix.pch";
-				INFOPLIST_FILE = "SZMasterDetailDemo/SZMasterDetailDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SZMasterDetailDemo/NSPopUpButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "SZMasterDetailDemo/NSPopUpButtonDemo-Info.plist";
+				PRODUCT_NAME = NSPopUpButtonDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,57 +321,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SZMasterDetailDemo/SZMasterDetailDemo-Prefix.pch";
-				INFOPLIST_FILE = "SZMasterDetailDemo/SZMasterDetailDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "SZMasterDetailDemo/NSPopUpButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "SZMasterDetailDemo/NSPopUpButtonDemo-Info.plist";
+				PRODUCT_NAME = NSPopUpButtonDemo;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		AAA4FA5017B551FC000085B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SZMasterDetailDemo.app/Contents/MacOS/SZMasterDetailDemo";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SZMasterDetailDemo/SZMasterDetailDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SZMasterDetailDemoTests/SZMasterDetailDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		AAA4FA5117B551FC000085B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SZMasterDetailDemo.app/Contents/MacOS/SZMasterDetailDemo";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SZMasterDetailDemo/SZMasterDetailDemo-Prefix.pch";
-				INFOPLIST_FILE = "SZMasterDetailDemoTests/SZMasterDetailDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAA4FA1017B551FC000085B2 /* Build configuration list for PBXProject "SZMasterDetailDemo" */ = {
+		AAA4FA1017B551FC000085B2 /* Build configuration list for PBXProject "NSPopUpButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA4FA4A17B551FC000085B2 /* Debug */,
@@ -448,21 +340,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAA4FA4C17B551FC000085B2 /* Build configuration list for PBXNativeTarget "SZMasterDetailDemo" */ = {
+		AAA4FA4C17B551FC000085B2 /* Build configuration list for PBXNativeTarget "NSPopUpButtonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAA4FA4D17B551FC000085B2 /* Debug */,
 				AAA4FA4E17B551FC000085B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		AAA4FA4F17B551FC000085B2 /* Build configuration list for PBXNativeTarget "SZMasterDetailDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AAA4FA5017B551FC000085B2 /* Debug */,
-				AAA4FA5117B551FC000085B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
