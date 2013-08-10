@@ -41,7 +41,7 @@
 
 - (IBAction)add:(id)sender;
 {
-    [self.arrayController add:sender];
+    [self.mediaController add:sender];
 }
 
 /**

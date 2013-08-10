@@ -7,7 +7,8 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SZDocument">
             <connections>
-                <outlet property="arrayController" destination="KCJ-Es-TpE" id="GHD-rS-vu2"/>
+                <outlet property="mediaController" destination="KCJ-Es-TpE" id="5m3-o2-iL7"/>
+                <outlet property="personController" destination="VQH-OP-9YV" id="ljz-Mg-gDa"/>
                 <outlet property="window" destination="5" id="18"/>
             </connections>
         </customObject>

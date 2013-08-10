@@ -12,8 +12,8 @@
 
 //@property (strong) IBOutlet NSMutableArray *mediaAssets;
 
-@property (strong) IBOutlet NSArrayController *arrayController;
-
+@property (strong) IBOutlet NSArrayController *mediaController;
+@property (strong) IBOutlet NSArrayController *personController;
 
 - (IBAction)add:(id)sender;
 
